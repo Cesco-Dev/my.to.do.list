@@ -1,0 +1,666 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* font-family: 'Raleway', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+/* font-family: 'Open Sans', sans-serif; */
+
+
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+.landing-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.lesson {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.kings {
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    align-items: center;
+    margin-top: 80px;
+}
+
+nav {
+    /* border: 2px solid rgb(170, 14, 170); */
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav > a {
+    color: #585989;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif; 
+    font-weight: 400;
+    font-size: 17.6px;
+}
+
+.numeric {
+    /* border: 2px solid red; */
+    margin-top: 200px;
+    margin-left: 5%;
+    width: 90%;
+    display: flex;
+}
+
+.metro {
+    /* border: 2px solid black; */
+    width: 50%;
+}
+
+.destro {
+    font-family: 'Raleway', sans-serif;
+    font-size: 38.4px;
+    color: #070439;
+    width: 100%;
+    line-height: 50px;
+}
+
+.metric {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 19.2px;
+    color: #070439;
+    margin-top: 30px;
+    width: 95%;
+}
+
+.numero {
+    /* border: 2px solid violet; */
+    width: 50%;
+}
+
+.umbro {
+    width: 100%;
+}
+
+.money {
+    position: relative;
+    width: 100%;
+    top: 0.18rem;
+}
+
+form {
+    display: flex;
+    margin-top: 25px;
+}
+
+.jumbo {
+    background: #ffffff;
+    padding: 0px 20px;
+    height: 40px;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    margin-right: 120px;
+    border-radius: 4px;
+}
+
+.matric {
+    margin-left: 15px;
+    /* height: 45px; */
+    border-radius: 4px;
+    border: none;
+    color: white;
+    font-weight: 700;
+    padding: 0px 20px;
+    font-size: 14.4px;
+    font-family: 'Raleway', sans-serif;
+    background-color: #3065f8;
+    width: 38%;
+    height: 40px;
+}
+
+.south-america {
+    /* border: 4px soild blue !important; */
+    background-color: #f6f6fe;
+    padding: 50px;
+    width: 100%;
+    /* height: 110vh; */
+    display: flex;
+}
+
+.jo-burg {
+    /* border: 2px solid red; */
+    margin-left: 25px;
+    width: 50%;
+    margin-top: 10px;
+}
+
+.lima {
+    font-family: 'Raleway', sans-serif;
+    font-size: 38.88px;
+    color: #070439;
+    width: 95%;
+}
+
+.chile {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #585989;
+    margin-top: 30px;
+    width: 90%;
+}
+
+.peru {
+    margin-top: 30px;
+    align-self: center;
+    width: auto;
+}
+
+.para {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14.4px;
+    color: #008000;
+}
+
+.brazil {
+    margin-top: 30px;
+    background-color: white;
+    width: 55%;
+    border-radius: 10px;
+    height: 220px;
+    padding: 24.96px 14.5469px;
+}
+
+.conny {
+    margin-top: 20px;
+}
+
+.north {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12.8px;
+    color: #070439;
+    width: 95%;
+    margin-top: 10px;
+}
+
+.ecuador {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+
+.hunger {
+    border-radius: 80px;
+    width: 10%;
+}
+
+.lingua {
+    margin-left: 10px;
+}
+
+.freeze {
+    font-family: 'Raleway', sans-serif;
+    font-size: 12.8px;
+    color: #070439;
+    font-weight: 700;
+}
+
+.fritz {
+    font-family: 'Raleway', sans-serif;
+    font-size: 9.6px;
+    color: #070439;
+}
+
+.santiago {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #585989;
+    margin-top: 30px;
+}
+
+.second-cont {
+    /* border: 2px solid greenyellow; */
+    width: 45%;
+    margin-top: 20px;
+}
+
+.mikael {
+    width: 100%;
+}
+
+.europe {
+    /* border: 2px solid maroon; */
+    background-color: #585989;
+    /* height: 55vh; */
+    display: flex;
+    padding: 112.96px 59.9531px 39.9219px 88px;
+    /* margin-left: 70px; */
+    /* width: 100%; */
+}
+
+.hungary {
+    /* border: 2px solid red; */
+    width: 50%;
+    margin-top: 45px;
+    /* height: 200px; */
+    /* margin-left: 30px; */
+}
+
+.finland {
+    font-family: 'Raleway', sans-serif;
+    font-size: 32px;
+    color: #ffffff;
+}
+
+.denmark {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    margin-top: 30px;
+}
+
+.spain {
+    /* border: 2px soild black; */
+    width: 50%;
+    margin-left: 60px;
+    line-height: 90px;
+}
+
+.ireland {
+    display: flex;
+    flex-direction: column;
+}
+
+.portugal {
+    width: 90%;
+}
+
+.beyond {
+    background: #ffffff;
+    padding: 0px 20px;
+    height: 40px;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    /* margin-right: 40px; */
+    border-radius: 4px;
+}
+
+.vene {
+    height: 45px;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    font-weight: 700;
+    padding: 0px 20px;
+    font-size: 14.4px;
+    font-family: 'Raleway', sans-serif;
+    background-color: #3065f8;
+    width: 38%;
+    height: 40px;
+}
+
+.levels {
+    /* border: 2px solid blue; */
+    background-color: hsl(243, 87%, 12%);
+    color: #ffffff;
+    /* height: 100vh; */
+    padding-top: 90px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+}
+
+.college {
+    color: white;
+}
+
+.fibre {
+    /* border: 2px solid gold; */
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    /* align-items: center; */
+    margin-top: 37px;
+}
+
+.sushi {
+    display: flex;
+    flex-direction: column;
+    line-height: 50px;
+}
+
+.mungo {
+    color: white;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.asia {
+    display: flex;
+    flex-direction: column;
+    line-height: 50px;
+}
+
+.dovey {
+    color: white;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.japan {
+    display: flex;
+    flex-direction: column;
+    line-height: 50px;
+}
+
+.lovey {
+    color: white;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.china {
+    display: flex;
+    margin-top: 10px;
+}
+
+.betty {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    margin-right: 1rem;
+    width: 1.8rem;
+    height: 1.8rem;
+    border-width: 0.05rem;
+    border-style: solid;
+    border-color: white;
+    border-image: initial;
+    border-radius: 50%;
+    transition: transform 250ms ease 0s;
+}
+
+.betty:hover {
+    transition: ease-in-out 2s;
+    font-size: 22px;
+}
+
+.butter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1rem;
+    width: 1.8rem;
+    height: 1.8rem;
+    border-width: 0.05rem;
+    border-style: solid;
+    border-color: white;
+    border-image: initial;
+    border-radius: 50%;
+    transition: transform 250ms ease 0s;
+}
+
+.sheep {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1rem;
+    width: 1.8rem;
+    height: 1.8rem;
+    border-width: 0.05rem;
+    border-style: solid;
+    border-color: white;
+    border-image: initial;
+    border-radius: 50%;
+    transition: transform 250ms ease 0s;
+}
+
+.football {
+    margin-left: 50%;
+    margin-top: 140px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10.5px;
+}
+
+.guru {
+    text-decoration: none;
+}
+
+@media (max-width: 850px) {
+    .glutton {
+        width: 40%;
+    }
+
+    .numeric {
+        /* border: 2px solid red; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column-reverse;
+    }
+
+    .metro {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 80%;
+    }
+
+    .kyurt {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 80%;
+        line-height: 100px;
+    }
+
+    .numero {
+        width: 90%;
+    }
+
+    .matric {
+        width: 71%;
+        margin-right: 3%;
+    }
+
+    .money {
+        margin-top: 20px;
+    }
+
+    .south-america {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column-reverse;
+    }
+
+    .second-cont {
+        width: 90%;
+    }
+
+    .brazil {
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+
+
+
+@media (max-width: 375px) {
+    .kings {
+        width: 100%;
+        /* border: 2px solid red; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+.lesson > img {
+    /* border: 2px solid green; */
+    width: 50%;
+}
+
+.glutton {
+    width: 50%;
+    /* font-size: 1px; */
+}
+
+
+    .landing-page {
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    .numeric {
+        display: flex;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+
+    .numero {
+        width: 100%;
+    }
+
+    .metro {
+        width: 100%;
+    }
+
+    .destro {
+        font-size: 25px;
+        line-height: 1.3;
+    }
+
+    .metric {
+        font-size: 14px;
+    }
+
+    form {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        /* line-height: 0.3; */
+    }
+
+    .matric {
+        width: 100%;
+        margin-right: 15px;
+        margin-top: 10px;
+    }
+
+    .money {
+        margin-top: 20px;
+    }
+
+    .south-america {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        flex-direction: column-reverse;
+    }
+
+    .second-cont {
+        width: 100%;
+    }
+
+    .jo-burg {
+        width: 100%;
+    }
+
+    .lima {
+        font-size: 26px;
+    }
+
+    .chile {
+        font-size: 13px;
+    }
+
+    .santiago {
+        font-size: 13px;
+    }
+
+    .brazil {
+        width: 100%;
+    }
+
+    .europe {
+        display: flex;
+        width: 100%;
+        /* align-items: center; */
+        /* justify-content: center; */
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .finland {
+        font-size: 20px;
+        width: 200%;
+    }
+
+    .denmark {
+        font-size: 13px;
+        width: 200%;
+    }
+
+    .ireland {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        /* width: 200%; */
+    }
+
+    .portugal {
+        width: 200%;
+    }
+
+    .vene {
+        width: 200%;
+    }
+
+    .fibre {
+        display: flex;
+        /* justify-content: flex-start; */
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .college {
+        width: 40%;
+    }
+
+    .mungo {
+        font-size: 13px;
+    }
+
+    .dovey {
+        font-size: 13px;
+    }
+
+    .lovey {
+        font-size: 13px;
+    }
+}
