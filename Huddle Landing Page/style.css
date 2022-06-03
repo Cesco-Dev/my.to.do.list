@@ -1,0 +1,642 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+/* font-family: 'Open Sans', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* font-family: 'Poppins', sans-serif; */
+
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+
+.music {
+    /* height: 110vh;
+    border: 2px solid; */
+    background-image: url(bg-hero-desktop.svg);
+    background-color: hsl(193, 100%, 96%);
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
+.numeric {
+    /* border: 2px solid springgreen; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 5%;
+    width: 95%;
+}
+
+
+.chelsea {
+    width: 20%;
+    /* margin-right: 3%; */
+    /* border: 2px solid rgb(255, 208, 0); */
+
+}
+
+.football {
+    width: 50%;
+}
+
+.hulk {
+    /* margin-left: 15px; */
+    /* height: 45px; */
+    border-radius: 24px;
+    border: none;
+    color: #000;
+    font-weight: 600;
+    padding: 14px 20px;
+    font-size: 14.4px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff;
+    width: 100%;
+}
+
+.first-base {
+    /* border: 2px solid red; */
+    display: flex;
+    margin-left: 3%;
+    width: 95%;
+    margin-top: 70px;
+}
+
+.baseball {
+    /* border: 2px solid mediumslateblue; */
+    width: 47.5%;
+    margin-top: 100px;
+}
+
+.just {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    color: hsl(192, 100%, 9%);
+    width: 90%;
+}
+
+.jist {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: hsl(192, 100%, 9%);
+    margin-top: 25px;
+    width: 95%;
+}
+
+.josh {
+    /* height: 55px; */
+    border-radius: 28px;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    padding: 15px 20px;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    background-color: hsl(322, 100%, 66%);
+    width: 45%;
+    margin-top: 25px;
+}
+
+.fireball {
+    /* border: 2px solid hotpink; */
+    width: 55%;
+}
+
+.mygos {
+    width: 100%;
+}
+
+.second-div {
+    /* border: 2px solid blue; */
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 5%;
+    width: 90%;
+    /* height: 480px; */
+    padding-top: 70px;
+    padding-bottom: 90px;
+    border-radius: 15px;
+    -webkit-box-shadow: 0px -7px 17px 0px rgba(0,0,0,0.28); 
+    box-shadow: 0px -7px 17px 0px rgba(107, 85, 85, 0.28);
+}
+
+.grope {
+    /* border: 2px solid green; */
+    width: 55%;
+    margin-left: 10%;
+    /* margin-top: 100px; */
+}
+
+.ripe {
+    /* border: 2px solid blue; */
+    width: 30%;
+    margin-right: 5%;
+}
+
+.margin-left {
+    /* border: 2px solid green; */
+    width: 30%;
+    margin-left: 10%;
+    /* margin-top: 100px; */
+}
+
+.margin-right {
+    /* border: 2px solid blue; */
+    /* padding-left: 10%; */
+    width: 45%;
+    margin-right: 5%;
+    margin-left: 3%;
+}
+
+.hunt {
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: hsl(208, 11%, 55%);
+    margin-top: 30px;
+}
+
+.grape {
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    color: hsl(193, 7%, 42%);
+}
+
+.fruit {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    width: 80%;
+    color: hsl(208, 11%, 55%);
+    margin-top: 30px;
+}
+
+
+.rope {
+    width: 100%;
+}
+
+.third-div {
+    /* border: 2px solid blue; */
+    margin-top: 80px;
+    display: flex;
+    margin-left: 5%;
+    width: 90%;
+    height: 430px;
+    padding-top: 70px;
+    border-radius: 15px;
+    -webkit-box-shadow: 0px -7px 17px 0px rgba(0,0,0,0.28); 
+    box-shadow: 0px -7px 17px 0px rgba(107, 85, 85, 0.28);
+}
+
+.dinero {
+    /* border: 2px solid red; */
+    width: 50%;
+}
+
+.jolts {
+    width: 70%;
+    margin-left: 5%;
+}
+
+.numeros {
+    /* border: 2px solid green; */
+    width: 50%;
+    /* margin-left: 120px; */
+    margin-top: 95px;
+}
+
+.lobby {
+    font-family: 'Poppins', sans-serif;
+    font-size: 27px;
+    font-weight: 600;
+    color: hsl(192, 100%, 9%);
+}
+
+.thesis {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 15px;
+    /* width: 100%; */
+    color: hsl(208, 11%, 55%);
+}
+
+.fourth-div {
+    /* border: 2px solid blue; */
+    margin-top: 70px;
+    display: flex;
+    margin-left: 5%;
+    width: 90%;
+    height: 450px;
+    padding-top: 70px;
+    border-radius: 15px;
+    -webkit-box-shadow: 0px -7px 17px 0px rgba(0,0,0,0.28); 
+    box-shadow: 0px -7px 17px 0px rgba(107, 85, 85, 0.28);
+}
+
+.limes {
+    /* border: 2px solid green; */
+    width: 60%;
+    margin-left: 5%;
+    margin-top: 90px;
+}
+
+.lems {
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    color: hsl(192, 100%, 9%);
+}
+
+.lemos {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    width: 85%;
+    color: hsl(208, 11%, 55%);
+    margin-top: 20px;
+}
+
+.lives {
+    /* border: 2px solid blue; */
+    width: 40%;
+}
+
+.laves {
+    width: 98%;
+}
+
+.mixed {
+    /* border: 2px solid blue; */
+    margin-top: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 20%;
+    width: 60%;
+    /* height: 260px; */
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 15px;
+    -webkit-box-shadow: 0px -7px 17px 0px rgba(0,0,0,0.28); 
+    box-shadow: 0px -7px 17px 0px rgba(107, 85, 85, 0.28);
+    position: relative;
+    bottom: -100px;
+    z-index: 1;
+    background-color: white;
+}
+
+
+
+.notes {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.region {
+    height: 75px;
+    border-radius: 38px;
+    border: none;
+    color: #fff;
+    font-weight: 550;
+    padding: 0px 20px;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    background-color: hsl(322, 100%, 66%);
+    width: 45%;
+    margin-top: 25px;
+}
+
+.levels {
+    background-color: hsl(192, 100%, 9%);
+    color: #ffffff;
+    /* height: 100vh; */
+    padding-top: 170px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    z-index: -200 !important;
+}
+
+.college {
+    color: white;
+}
+
+.fibre {
+    /* border: 2px solid gold; */
+    display: flex;
+    width: 90%;
+    /* height: 400px; */
+    justify-content: space-between;
+    /* align-items: center; */
+    margin-top: 37px;
+}
+
+.sushi {
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    /* line-height: 50px; */
+}
+
+.metro {
+    display: flex;
+    color: white;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    line-height: 50px;
+}
+
+.mungo {
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    color: white;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    /* width: 65%; */
+}
+
+.drugs {
+    /* width: 22.5%; */
+    margin-left: 10px;
+}
+
+.asia {
+    display: flex;
+    flex-direction: column;
+    line-height: 50px;
+    /* width: 22.5%; */
+}
+
+.dovey {
+    color: white;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.japan {
+    display: flex;
+    flex-direction: column;
+    line-height: 50px;
+    /* width: 22.5%; */
+}
+
+.lovey {
+    color: white;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.china {
+    display: flex;
+    margin-top: 10px;
+    /* width: 22.5%; */
+}
+
+.betty {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    margin-right: 1rem;
+    width: 1.8rem;
+    height: 1.8rem;
+    border-width: 0.05rem;
+    border-style: solid;
+    border-color: white;
+    border-image: initial;
+    border-radius: 50%;
+    transition: transform 250ms ease 0s;
+}
+
+.betty:hover {
+    transition: ease-in-out 2s;
+    font-size: 22px;
+}
+
+.butter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1rem;
+    width: 1.8rem;
+    height: 1.8rem;
+    border-width: 0.05rem;
+    border-style: solid;
+    border-color: white;
+    border-image: initial;
+    border-radius: 50%;
+    transition: transform 250ms ease 0s;
+}
+
+.sheep {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1rem;
+    width: 1.8rem;
+    height: 1.8rem;
+    border-width: 0.05rem;
+    border-style: solid;
+    border-color: white;
+    border-image: initial;
+    border-radius: 50%;
+    transition: transform 250ms ease 0s;
+}
+
+.feetball {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+    margin-top: 95px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 11.5px;
+}
+
+
+/* SCREEN SIZE 1019 */
+
+@media (max-width: 1019px) {
+    .first-base {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* border: 2px solid blue; */
+    }
+
+    .baseball {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 80%;
+    }
+
+    .fireball {
+        margin-top: 30px;
+        width: 90%;
+    }
+
+    .mixed {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+
+}
+
+@media (max-width: 582px) {
+    .none {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .reverse {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+
+    .grope,
+    .margin-right {
+        width: 90%;
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .ripe,
+    .margin-left {
+        width: 90%;
+    }
+
+    .notes {
+        font-size: 25px;
+    }
+
+    .region {
+        font-size: 14px;
+    }
+
+    .levels {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        /* width: 90%; */
+    }
+
+    .fibre {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        /* width: 80%; */
+    }
+
+ }
+
+ @media (max-width: 375px) {
+     .levels {
+         display: flex;
+         align-items: flex-start;
+         justify-content: center;
+         /* text-align: left; */
+     }
+
+     .fibre {
+         display: flex;
+         align-items: flex-start;
+         justify-content: flex-start;
+         align-items: left;
+     }
+
+     .coco {
+         width: 80%;
+     }
+
+     .hulk {
+         height: 50px;
+         width: 100%;
+         font-size: 10px;
+     }
+
+     .just {
+         font-size: 27px;
+     }
+
+     .jist {
+         font-size: 12.5px;
+     }
+
+     .grape {
+         font-size: 19px;
+     }
+
+     .fruit {
+         font-size: 12.5px;
+     }
+
+     .hunt {
+         font-size: 12.5px;
+     }
+
+     .notes {
+         font-size: 18px;
+     }
+
+     .region {
+         font-size: 12px;
+         width: 50%;
+         height: 50px;
+     }
+
+     .college {
+         width: 80%;
+         margin-right: 50%;
+     }
+
+     .drugs {
+         font-size: 12.5px;
+         line-height: 2.8;
+         text-align: left;
+     }
+
+     .dovey {
+         font-size: 12.5px;
+         display: flex;
+         align-items: flex-start;
+     }
+
+     .lovey {
+         font-size: 12.5px;
+         display: flex;
+         align-items: flex-start;
+     }
+ }
